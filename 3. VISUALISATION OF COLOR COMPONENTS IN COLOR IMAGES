@@ -1,0 +1,13 @@
+A = imread('Desert.jpg');
+subplot(2,2,1);
+imagesc(A);
+title('Colour Image');
+subplot(2,2,2);
+imagesc(A(:,:,1));
+title('Red');
+subplot(2,2,3);
+imagesc(A(:,:,2));
+title('Green');
+subplot(2,2,4);
+imagesc(A(:,:,3));
+title('Blue');
